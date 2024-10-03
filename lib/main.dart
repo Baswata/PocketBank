@@ -8,6 +8,9 @@ import 'package:pocket_banking/pages/login.dart';
 import 'package:pocket_banking/pages/register.dart';
 //IMPORTS THE DASHBOARD PAGE
 import 'package:pocket_banking/pages/dashboard.dart';
+//IMPORT THE SEND MONEY PAGE
+import 'package:pocket_banking/pages/send_money.dart';
+
 
 // The main function is the entry point of the app.
 // It calls the runApp() method to start the PocketBankingApp.
