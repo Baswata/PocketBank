@@ -45,7 +45,7 @@ class SendMoneyPage extends StatelessWidget {
               },
               child: Text('Send Money'),
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.teal,
+                backgroundColor: Colors.white,
                 padding: EdgeInsets.symmetric(horizontal: 32.0, vertical: 16.0),
               ),
             ),

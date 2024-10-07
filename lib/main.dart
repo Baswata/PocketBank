@@ -10,6 +10,8 @@ import 'package:pocket_banking/pages/register.dart';
 import 'package:pocket_banking/pages/dashboard.dart';
 //IMPORT THE SEND MONEY PAGE
 import 'package:pocket_banking/pages/send_money.dart';
+//IMPORT PAY BILLS PAGE
+import 'package:pocket_banking/pages/pay_bills.dart';
 
 
 // The main function is the entry point of the app.
@@ -94,6 +96,8 @@ class PocketBankingApp extends StatelessWidget {
         '/': (context) => LoginPage(), // Root route loads the LoginPage.
         '/register': (context) => RegisterPage(), // '/register' route loads the RegisterPage.
         '/dashboard': (context) => DashboardPage(), // '/dashboard' route loads the DashboardPage.
+        '/sendmoney': (context) => SendMoneyPage(), // '/sendmoney' route loads the SendMoneyPage.\
+        '/paybills': (context) => PayBillsPage(),
       },
     );
   }
